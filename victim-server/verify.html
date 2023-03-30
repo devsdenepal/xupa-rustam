@@ -1,0 +1,8 @@
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const user_name = urlParams.get('user_name').toLocaleUpperCase();
+    const user_pass = urlParams.get('user_pass').toLocaleLowerCase();
+    if(user_name == "gautam" && user_pass == "123456789"){
+      window.location.href="./success.html"
+    }
+</script>
