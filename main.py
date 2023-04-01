@@ -7,6 +7,7 @@ import time
 admin_el = []
 psd = []
 i = 0
+proxies = {}
 j=0
 # URL
 a_url = input("Testing URL:" )
