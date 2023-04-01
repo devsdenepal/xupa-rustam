@@ -2,3 +2,6 @@ admin
 wp_admin
 123admin
 admin_user
+administrator
+john_doe
+gautam
