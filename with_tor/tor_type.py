@@ -11,6 +11,10 @@ admin_el = []
 psd = []
 i = 0
 a_url = input("Testing URL: ")
+uid_param = input('Username or UserId parameter name: ')
+#for ex: user_name
+password_param = input('Password parameter name: ;)
+#for ex: user_pass
 # read the list of proxies from the file
 
 admin_list_file = input("Admin list path: ")
@@ -26,8 +30,8 @@ for admin in admin_el:
     for password in psd:
         print("Trying: {} with password {}".format(admin, password))
         params = {
-                'user_name': admin,
-                'user_pass': password
+                uid_param : admin,
+                password_param : password
         }
         try:
             response = requests.post(a_url, params=params, allow_redirects=True)
