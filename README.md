@@ -14,7 +14,7 @@ The brute force works upon user defined admin and password list which tries each
 - [x] Stability in request with proxy (depends upon user's speed)
 ## Requirements
 - Pysocks
-- Tor 
+- Tor proxy available on port 9050
 - A possible list of admin and one for password
 ## Installation
 ```$ git clone https://github.com/devsdenepal/xupa-rustam ```
