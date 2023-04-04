@@ -9,4 +9,4 @@
 - [x] Proxy Skipping for not responding proxies
 - [x] Filter inactive proxies from proxy list
 - [x] Available without proxy feature
-- [ ] Stability in request with proxy 
+- [x] Stability in request with proxy 
