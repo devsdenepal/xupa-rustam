@@ -2,7 +2,7 @@
 ![screenshot](https://raw.githubusercontent.com/devsdenepal/xupa-rustam/main/screenshots/IMG-20230403-WA0022.jpg)
 ``` A PYTHON BASED BRUTE FORCE PROJECT AIMED TO BYPASS ADMIN LOGIN PANEL OF WEBSITES (Pentesting tool) ```
 # Description
-This Python based CLI tool is made to host Brute-Force attack using `requests` module, and for keeping anonymity of the attacker's IP address `Tor proxy` is being used. 
+This Python based Pentesting CLI tool is made to host Brute-Force attack using `requests` module, and for keeping anonymity of the attacker's IP address `Tor proxy` is being used. 
 The brute force works upon user defined admin and password list which tries each password from the list to every admin from the list.
 ## Aims of this project
 - [x] Brute-Force to website
